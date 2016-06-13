@@ -28,6 +28,8 @@ public class HelloHttpServlets extends HttpServlet {
 		out.println("<head><title>Hello World</title></head>");
 		out.println("<body>Hello World!!</body>");
 		out.println("</html>");
+		
+		out.close();
 	}
 
 	/**
